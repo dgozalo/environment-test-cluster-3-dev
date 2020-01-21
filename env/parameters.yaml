@@ -1,0 +1,10 @@
+adminUser:
+  password: vault:test-cluster-3/adminUser:password
+  username: admin
+enableDocker: false
+pipelineUser:
+  email: dgozalo@cloudbees.com
+  token: vault:test-cluster-3/pipelineUser:token
+  username: dgozalo
+prow:
+  hmacToken: vault:test-cluster-3/prow:hmacToken
