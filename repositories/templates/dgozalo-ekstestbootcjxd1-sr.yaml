@@ -1,0 +1,23 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  annotations:
+    jenkins.io/last-build-number-for-master: "1"
+  creationTimestamp: null
+  labels:
+    owner: dgozalo
+    provider: github
+    repository: ekstestbootcjxd1
+  name: dgozalo-ekstestbootcjxd1
+spec:
+  description: Imported application for dgozalo/ekstestbootcjxd1
+  httpCloneURL: https://github.com/dgozalo/ekstestbootcjxd1.git
+  org: dgozalo
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: ekstestbootcjxd1
+  scheduler:
+    kind: ""
+    name: ""
+  url: https://github.com/dgozalo/ekstestbootcjxd1.git

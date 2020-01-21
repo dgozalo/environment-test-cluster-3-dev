@@ -5,3 +5,9 @@ dependencies:
   url: https://github.com/dgozalo/dgozalo-ekstestbootcjxd2.git
   version: ""
   versionURL: ""
+- host: github.com
+  owner: dgozalo
+  repo: ekstestbootcjxd1
+  url: https://github.com/dgozalo/ekstestbootcjxd1.git
+  version: ""
+  versionURL: ""
