@@ -1,0 +1,16 @@
+dex:
+  connectors:
+    github:
+      config:
+        clientID: vault:gitOps/dgozalo/environment-test-cluster-3-dev/dex-connectors-github-config:clientID
+        clientSecret: vault:gitOps/dgozalo/environment-test-cluster-3-dev/dex-connectors-github-config:clientSecret
+        id: google
+        issuer: https://accounts.google.com
+        name: Google
+        type: oidc
+  domain: cjxd-3.cdx-dev.beescloud.com
+enabledConnector: Google
+groups:
+  committer: none@none.com
+  owner: none@none.com
+  viewer: none@none.com
