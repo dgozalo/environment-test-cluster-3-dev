@@ -31,9 +31,9 @@ environments:
     externalDNS: false
     namespaceSubDomain: ""
     tls:
-      email: ""
-      enabled: false
-      production: false
+      email: dgozalo@cloudbees.com
+      enabled: true
+      production: true
   key: staging
 - ingress:
     domain: ""
